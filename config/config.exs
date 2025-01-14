@@ -31,4 +31,10 @@ import Config
 
 config :vaultex, httpoison: HTTPoison
 
+config :git_ops,
+  mix_project: Vaultex.Mixfile,
+  changelog_file: "CHANGELOG.md",
+  repository_url: "https://github.com/NarrativeApp/vaultex",
+  manage_mix_version?: true
+
 import_config "#{config_env()}.exs"
