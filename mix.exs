@@ -40,7 +40,7 @@ defmodule Vaultex.Mixfile do
       {:ex_aws, "~> 2.0", optional: true},
       {:git_ops, "~> 2.2", only: [:dev, :test]},
       {:ex_doc, ">= 0.0.0", only: [:dev, :test]},
-      {:credo, "~> 1.4", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
   end
 
