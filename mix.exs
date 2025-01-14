@@ -7,7 +7,7 @@ defmodule Vaultex.Mixfile do
     [
       app: :vaultex,
       version: @version,
-      elixir: "~> 1.16",
+      elixir: "~> 1.14",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       description: description(),
