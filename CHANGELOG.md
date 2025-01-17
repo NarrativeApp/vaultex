@@ -49,6 +49,23 @@
 
 <!-- changelog -->
 
+## [0.14.0](https://github.com/NarrativeApp/vaultex/compare/0.13.0...0.14.0) (2025-01-17)
+
+
+
+
+### Features:
+
+* config: add git_ops configuration for version management and changelog
+
+* elixir 1.16 and github CI
+
+### Bug Fixes:
+
+* remove unused dependencies from mix.lock
+
+* downgrade Elixir version requirement to 1.14
+
 ## [0.13.0](https://github.com/NarrativeApp/vaultex/compare/0.12.7...0.13.0) (2025-01-14)
 
 
